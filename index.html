@@ -1,65 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Ronald Stewart’s MyBio Assignment</title>
+    <title>Ronald Stewart’s 'MyBio Assignment'</title>
     <link href="stylesheet.css" type="text/css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id=”container”>
-      <h1> MyBio Assignment Landing Page </h1>
-      <h2> CSD 340 Web Development with HTML and CSS </h2>
-      <hr>
-      <h3> Module Assignments </h3>
-      <ul>
-        <li>
-          <a href=module-2/stewart_EX1.html>Assignment 2.2</a>
-        </li>
-        <li>
-          <a href=module-3/stewart_EX2.html>Assignment 3.2</a>
-        </li>
-        <li>
-          <a href=module-4/stewart_EX3.html>Assignment 4.3</a>
-        </li>
-        <li>
-          <a href=module-5/stewart_EX4.html>Assignment 5.2</a>
-        </li>
-        <li>
-          <a href=module-7/stewart_EX5.html>Assignment 7.2</a>
-        </li>
-         <li>
-          <a href=module-9/stewart_EX6.html>Assignment 9.2</a>
-        </li>
-          <li>
-          <a href=module-11/stewart-assignment_11_2.docx>Assignment 11.2</a>
-        </li>
-      </ul>
-      <h3> Projects </h3>
-      <ul>
-        <li>
-          <a href=../bioSite/index.html>bioSite Project Home Page</a>
-        </li>
-        <li>
-          <a href=”#”>MyBio Assignment</a>
-        </li>
-      </ul>
-      <h4> Important Links </h4>
-      <ul>
-        <li>
-          <a href="https://validator.w3.org/">W3C HTML Validator</a>
-        </li>
-        <li>
-          <a href="http://jigsaw.w3.org/css-validator/">W3C CSS Validator</a>
-        </li>
-        <li>
-          <a href="https://www.w3schools.com/html/">HTML Tutorial</a>
-        </li>
-        <li>
-          <a href=" https://bruinconnect.bellevue.edu/">BRUIN Connect</a>
-        </li>
-      </ul>
+    <div id="container">
+      <div class="hobbies">
+        <h2>Hobbies</h2>
+        <div class="hobby-cards">
+          <div class="card">
+            <div class="card-title">
+              <h3>Powerlifting</h3>
+            </div>
+            <div class="card-content">
+              <figure>
+                <img src="" alt="">
+                <figcaption>
+                  <br>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">
+              <h3>Rock Climbing</h3>
+            </div>
+            <div class="card-content">
+              <figure>
+                <img src="" alt="">
+                <figcaption>
+                  <br>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">
+              <h3>Gaming</h3>
+            </div>
+            <div class="card-content">
+              <figure>
+                <img src="" alt="">
+                <figcaption>
+                  <br>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="container">
+        <div class="experience">
+          <h2>Experience</h2>
+          <div class="experience-cards">
+            <div class="card">
+              <div class="card-title">
+                <h3></h3>
+              </div>
+              <div class="card-content">
+                <figure>
+                  <img src="" alt="">
+                  <figcaption>
+                    <br>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <h3></h3>
+              </div>
+              <div class="card-content">
+                <figure>
+                  <img src="" alt="">
+                  <figcaption>
+                    <br>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-title">
+                <h3></h3>
+              </div>
+              <div class="card-content">
+                <figure>
+                  <img src="" alt="">
+                  <figcaption>
+                    <br>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="form-holder">
+          <h2>Send a <span>"Contact Ronald"</span> message </h2>
+          <div class="form">
+            <form action="mailto:ronstewart@my365.bellevue.edu?subject=Hi Ronald!" method="post" enctype="text/plain">
+              <label for="First Name">First Name</label>
+              <input type="text" name="First Name" placeholder="Your first name..." required />
+              <br>
+              <label for="Last Name">Last Name</label>
+              <input type="text" name="Last Name" placeholder="Your last name..." required />
+              <br>
+              <label for="Email">Email Address</label>
+              <input type="email" name="Email" placeholder="Your email address..." required />
+              <br>
+              <div class="submit">
+                <input id="submit" type="submit" value="Send Message">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="contact-details">
+          <p>Ronald Stewart | ronstewart@my365.bellevue.edu</p>
+        </div>
+        <div class="copyright">
+          <p>Copyright &copy; <script>
+              document.write(new Date().getFullYear())
+            </script>Stewart</p>
+        </div>
     </div>
   </body>
 </html>
