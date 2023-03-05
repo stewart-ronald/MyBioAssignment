@@ -9,6 +9,10 @@ h1, h2{
   font-weight: 400;
 }
 
+#container {
+  margin: 2% 2% 2% 2%;
+}
+
 .hobbies, .experience, #contact {
   text-align: center;
 }
