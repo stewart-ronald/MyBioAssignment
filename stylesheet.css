@@ -10,7 +10,9 @@ h1, h2{
 }
 
 #container{
-  margin: 2% 5% 100px 5%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 10%;
 }
 
 .card{
