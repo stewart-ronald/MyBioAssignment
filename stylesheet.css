@@ -52,7 +52,6 @@ h3 {
   letter-spacing: 0.125em;
 }
 
-
 #container {
   margin: 2% 2% 2% 2%;
 }
@@ -110,16 +109,6 @@ hr {
 .card a:hover {
   background-color: #efc3d2;
 }
-
-footer a {
-  color: white;
-  font-weight: bold;
-}
-
-footer a:hover {
-  color: #4c7eb2;
-}
-
 
 .card img {
   width: 100%;
