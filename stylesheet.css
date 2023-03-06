@@ -34,15 +34,15 @@ h1, h2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 30%;
   margin: 10px;
-  background-color: #f9dbe3;
+  background-color: white;
   border-radius: 10px;
-  border: solid 2px #9c7491;
+  border: solid 2px maroon;
 }
 
 .card-title, figcaption {
   text-align: center;
   font-weight: 500;
-  color: #4c7eb2;
+  color: black;
 }
 
 .form {
