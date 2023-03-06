@@ -94,10 +94,8 @@ hr {
   text-align: center;
 }
 
-.copyright {
-  font-weight: 300;
-  width: 30%;
-  float: right;
+#copyright{
+  float: left;
 }
 
 .card a {
