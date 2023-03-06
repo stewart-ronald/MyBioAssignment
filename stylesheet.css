@@ -34,6 +34,13 @@ footer a:hover {
   color: #4c7eb2;
 }
 
+.copyright {
+  font-weight: 300;
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  
+}
 .landingPage {
   display: inline-block;
   width: 30%;
