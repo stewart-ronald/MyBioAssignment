@@ -127,7 +127,7 @@ hr {
   border: solid 2px #9c7491;
 }
 
-label, textarea {
+label {
   display: inline-block;
   clear: left;
   text-align: left;
@@ -139,10 +139,6 @@ label, textarea {
 input {
   display: inline-block;
   width: 45%;
-}
-
-textarea {
-  vertical-align: top;
 }
 
 #submit {
