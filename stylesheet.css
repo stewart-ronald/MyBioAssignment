@@ -1,47 +1,10 @@
-header{
+header {
   background-color: blueviolet;
   color: white;
-  padding: 20px;
   text-align: center;
-}
-
-h1, h2{
-  font-weight: 400;
-}
-
-#container {
-  margin: 2% 2% 2% 2%;
-}
-
-.hobbies, .experience, #contact {
-  text-align: center;
-}
-
-.hobby-cards, .experience-cards {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-
-.hobbies .card, .experience .card {
-  display: inline-block;
-  vertical-align: top;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 30%;
-  margin: 10px;
-  background-color: #f9dbe3;
+  font-weight: bold;
   border-radius: 10px;
-  border: solid 2px #9c7491;
-}
-
-.card-title, figcaption {
-  text-align: center;
-  font-weight: 500;
-  color: #4c7eb2;
-}
-
-.card:hover{
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border: solid 2px red;
 }
 
 footer{
@@ -71,4 +34,145 @@ footer a:hover{
 
 #copyright{
   float: left;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: white;
+}
+
+h2 {
+  text-align: center;
+  color: blueviolet;
+  letter-spacing: 0.25em;
+}
+
+h3 {
+  color: turquoise;
+  letter-spacing: 0.125em;
+}
+
+
+#container {
+  margin: 2% 2% 2% 2%;
+}
+
+hr {
+  border: 1px solid black;
+  width: 75%;
+}
+
+.hobbies, .experience, #contact {
+  text-align: center;
+}
+
+.hobby-cards, .experience-cards {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.hobbies .card, .experience .card {
+  display: inline-block;
+  vertical-align: top;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 30%;
+  margin: 10px;
+  background-color: #f9dbe3;
+  border-radius: 10px;
+  border: solid 2px #9c7491;
+}
+
+.card-title, figcaption {
+  text-align: center;
+  font-weight: 500;
+  color: #4c7eb2;
+}
+
+.contact-details, .landingPage {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+
+.copyright {
+  font-weight: 300;
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+
+.card a {
+  font-weight: 400;
+  color: #4c7eb2;
+}
+
+.card a:hover {
+  background-color: #efc3d2;
+}
+
+footer a {
+  color: white;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #4c7eb2;
+}
+
+
+.card img {
+  width: 100%;
+  border: solid 2px #9c7491;
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.form {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 30%;
+  margin: 0px auto 5px auto;
+  padding: 5px 20px 20px 20px;
+  background-color: #f9dbe3;
+  border-radius: 10px;
+  border: solid 2px #9c7491;
+}
+
+label, textarea {
+  display: inline-block;
+  clear: left;
+  text-align: left;
+  width: 45%;
+  margin: 5px;
+  color: #4c7eb2;
+}
+
+input {
+  display: inline-block;
+  width: 45%;
+}
+
+textarea {
+  vertical-align: top;
+}
+
+#submit {
+  background-color: #9c7491;
+  padding: 5px 10px;
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 12px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#submit:hover {
+  background-color: #4c7eb2;
 }
